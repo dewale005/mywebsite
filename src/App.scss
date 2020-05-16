@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.customContainer {
+  padding-right: 60px;
+  padding-left: 60px;
+}
+
+.navigations {
+    float: right;
+}
+
+.navPosition {
+  position: fixed;
+  padding: 22px 60px;
+  z-index: 1;
+}
+
+.navigations {
+  a {
+    float: left;
+  color: white;
+  text-align: center;
+  padding: 12px 25px;
+  text-decoration: none;
+  font-size: 15px; 
+  line-height: 25px;
+  border-radius: 4px;
+  }
+
+  .active span{
+    position: relative;
+    display: block;
+    padding-bottom: 2px;
+  }
+
+  .active span::before{
+    display: inline-block;
+    content: "";
+    border-bottom: 2px solid #fff;
+    position: absolute;
+    bottom: 0;
+    width: 70%;
+  } 
+
+  button {
+    padding: 7px 25px;
+    margin-top: 4px;
+    margin-left: 80px;
+    border-radius: 92px 0px 92px 0px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+}
+
+.myPhoto {
+  content: url(./img/adewale.png);
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+  right: 0;
+  left: 0;
+  opacity: 0.45;
+}
+ .name {
+  top: 38%;
+  right: 0;
+  left: 0;
+  position: absolute;
+    font-size: 183px;
+    text-align: center;
+    font-family: roboto;
+    letter-spacing: 37px;
+    font-weight: 300;
+    color: #fff;
+    opacity: .2;
+ }
+
+ .centerImage {
+  margin-bottom: -120px;
+  .scrolldown {
+    float: right;
+    position: absolute;
+    right: 28px;
+    top: 46%;
+    transform: rotate(90deg);
+    color: #fff;
+    opacity: .5;
+    display: flex;
+    a {
+      color: #fff;
+      text-decoration: none;
+      background-color: #88272700;
+      z-index: 1;
+  }
+  .mat {
+    bottom: 7px;
+    position: relative;
+  }
+  }
+ }
+
+ .userName {
+  font-size: 29px;
+  margin-bottom: -10px;
+  color: #fff;
+  font-family: roboto;
+  font-weight: 900;
+ }
+
+ .userRole {
+  font-size: 17px;
+  color: #fff;
+  opacity: 0.4;
+  margin-top: 20px;
+ }
+
+ .data {
+  padding-bottom: 60px;
+ }
+
+ .checkCv {
+   float: right;
+   display: inline-flex;
+ }
+
+ .resume {
+  margin-left: 12px;
+  background-color: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+ }
+
+ .material-icons {
+  margin-top: 8px;
+ }
+
+ .connect {
+  position: absolute;
+  top: 36%;
+  color: #fff;
+  display: inline-grid;
+  a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #88272700;
+    z-index: 1;
+}
+  .fa {
+    margin-bottom: 20px;
+  }
+  p {
+    transform: rotate(270deg);
+    position: relative;
+    top: 30px;
+    left: -33px;
+  }
+ }
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
